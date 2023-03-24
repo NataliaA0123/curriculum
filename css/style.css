@@ -30,3 +30,14 @@ background-color: blue;
     background-color: rgb(234, 250, 215); /*color de fondo de la caja*/
     color: rgb(243, 8, 196);
 }
+
+
+    input:valid,
+textarea:valid {
+    background: green;
+}
+
+input:invalid,
+textarea:invalid {
+    background: red;
+}
